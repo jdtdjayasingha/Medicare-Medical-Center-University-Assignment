@@ -1,0 +1,25 @@
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\Medicare Medical Center.exe
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\Medicare Medical Center.deps.json
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\Medicare Medical Center.runtimeconfig.json
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\Medicare Medical Center.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\Medicare Medical Center.pdb
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.csproj.GenerateResource.cache
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.AssemblyInfoInputs.cache
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.AssemblyInfo.cs
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.csproj.CoreCompileInputs.cache
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.sourcelink.json
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\refint\Medicare Medical Center.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.pdb
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.genruntimeconfig.cache
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\ref\Medicare Medical Center.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.EnterDoctorDetails.resources
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.csproj.AssemblyReference.cache
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare.ABF58914.Up2Date

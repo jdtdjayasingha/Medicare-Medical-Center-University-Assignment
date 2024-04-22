@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare Medical Center\\",
+  "WorkspaceRootPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare medical center\\medicare medical center\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\enterdoctordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\enterdoctordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\enterdoctordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\enterdoctordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare Medical Center\\Medicare Medical Center\\Form1.cs",
-              "RelativeDocumentMoniker": "Medicare Medical Center\\Form1.cs",
-              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare Medical Center\\Medicare Medical Center\\Form1.cs [Design]",
-              "RelativeToolTip": "Medicare Medical Center\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "EnterDoctorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\EnterDoctorDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\EnterDoctorDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\EnterDoctorDetails.cs",
+              "RelativeToolTip": "Medicare Medical Center\\EnterDoctorDetails.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswC8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:16:28.907Z",
+              "WhenOpened": "2024-04-22T19:48:53.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnterDoctorDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\EnterDoctorDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\EnterDoctorDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\EnterDoctorDetails.cs [Design]",
+              "RelativeToolTip": "Medicare Medical Center\\EnterDoctorDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T19:48:51.553Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Xge5hRgSWoHZ1zABtFHPDmky7yP9uQ42JzHcVOXUOhWELu4PpCaKv03cw0y0WXM8kJ27/0Xj8ap7QO4OSaIqhg==",
+  "dgSpecHash": "tVZKvst3pE2tFUvmLBe6spwu2O8FsQdZTffJluQiCCGEVCueBNLeIPVLreWP3h33vKcdAQadZi24Fo8w+NjHhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare Medical Center\\Medicare Medical Center\\Medicare Medical Center.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\Medicare Medical Center.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\visio\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
