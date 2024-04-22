@@ -23,3 +23,4 @@ C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Ass
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare.ABF58914.Up2Date
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.ShowDoctorDetails.resources
