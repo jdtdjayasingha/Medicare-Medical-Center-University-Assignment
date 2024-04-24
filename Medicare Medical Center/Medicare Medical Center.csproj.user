@@ -10,6 +10,9 @@
     <Compile Update="EnterPatientDetails.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EnterTreatmentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ShowAppointmentDetails.cs">
       <SubType>Form</SubType>
     </Compile>
