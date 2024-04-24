@@ -26,3 +26,4 @@ C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Ass
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.ShowDoctorDetails.resources
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.EnterPatientDetails.resources
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.ShowPatientDetails.resources
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.EnterAppointmentDetails.resources
