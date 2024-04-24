@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\medicare medical center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\showappointmentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\showappointmentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\showpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\showpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\showpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\showpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\showappointmentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\showappointmentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|c:\\users\\visio\\documents\\settings\\git hub\\medicare-medical-center-university-assignment\\medicare medical center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA770F19-0BF9-4F12-8CC8-4B42A8215912}|Medicare Medical Center\\Medicare Medical Center.csproj|solutionrelative:medicare medical center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\Program.cs",
               "RelativeDocumentMoniker": "Medicare Medical Center\\Program.cs",
               "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\Program.cs",
               "RelativeToolTip": "Medicare Medical Center\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T20:23:03.241Z",
+              "WhenOpened": "2024-04-24T13:49:39.649Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowPatientDetails.cs",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowPatientDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\ShowPatientDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowPatientDetails.cs",
+              "RelativeToolTip": "Medicare Medical Center\\ShowPatientDetails.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:47:07.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowPatientDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowPatientDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\ShowPatientDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowPatientDetails.cs [Design]",
+              "RelativeToolTip": "Medicare Medical Center\\ShowPatientDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:47:04.501Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowAppointmentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "RelativeToolTip": "Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:46:53.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowAppointmentDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "RelativeDocumentMoniker": "Medicare Medical Center\\ShowAppointmentDetails.cs",
+              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Medicare-Medical-Center-University-Assignment\\Medicare Medical Center\\ShowAppointmentDetails.cs [Design]",
+              "RelativeToolTip": "Medicare Medical Center\\ShowAppointmentDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:45:57.453Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },
