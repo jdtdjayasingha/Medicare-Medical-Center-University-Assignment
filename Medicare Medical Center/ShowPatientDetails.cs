@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Medicare_Medical_Center
 {
-    public partial class ShowDoctorDetails : Form
+    public partial class ShowPatientDetails : Form
     {
         SqlConnection con;
         SqlCommand cm;
@@ -19,7 +19,7 @@ namespace Medicare_Medical_Center
         DataTable dt;
         string connectionString = "Data Source=Master;Initial Catalog=Medicare-Medical-Center-DB;Integrated Security=True;TrustServerCertificate=True";
 
-        public ShowDoctorDetails()
+        public ShowPatientDetails()
         {
             InitializeComponent();
             con = new SqlConnection(connectionString);
@@ -30,11 +30,11 @@ namespace Medicare_Medical_Center
             try
             {
                 con.Open();
-                string query = "SELECT * FROM Doctor";
+                string query = "SELECT * FROM patient";
                 da = new SqlDataAdapter(query, con);
                 dt = new DataTable();
                 da.Fill(dt);
-                doctorGW.DataSource = dt;
+                patientGW.DataSource = dt;
             }
             catch (Exception ex)
             {
@@ -45,11 +45,10 @@ namespace Medicare_Medical_Center
                 con.Close();
             }
         }
-
-
-        private void ShowDoctorDetails_Load(object sender, EventArgs e)
+        private void ShowPatientDetails_Load(object sender, EventArgs e)
         {
             RefreshDataGridView();
         }
     }
 }
+
