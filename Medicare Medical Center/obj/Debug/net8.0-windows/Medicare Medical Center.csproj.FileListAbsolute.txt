@@ -29,3 +29,4 @@ C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Ass
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.EnterAppointmentDetails.resources
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.ShowAppointmentDetails.resources
 C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.EnterTreatmentDetails.resources
+C:\Users\visio\Documents\Settings\Git Hub\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.ShowTreatmentDetails.resources
