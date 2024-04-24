@@ -39,21 +39,21 @@
             doctorGW.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader;
             doctorGW.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             doctorGW.GridColor = Color.Gray;
-            doctorGW.Location = new Point(81, 12);
+            doctorGW.Location = new Point(11, 10);
+            doctorGW.Margin = new Padding(2);
             doctorGW.Name = "doctorGW";
             doctorGW.ReadOnly = true;
             doctorGW.RowHeadersVisible = false;
-            doctorGW.Size = new Size(810, 519);
+            doctorGW.Size = new Size(962, 540);
             doctorGW.TabIndex = 0;
             // 
             // ShowDoctorDetails
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 561);
             Controls.Add(doctorGW);
-            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(4);
+            Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "ShowDoctorDetails";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ShowDoctorDetails";

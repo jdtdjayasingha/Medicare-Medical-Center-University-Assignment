@@ -42,6 +42,12 @@
             hospitalNameTB = new TextBox();
             saveDataBtn = new Button();
             specializationTB = new TextBox();
+            descriptionTB = new TextBox();
+            genderTB = new TextBox();
+            label8 = new Label();
+            label9 = new Label();
+            fileSystemWatcher1 = new FileSystemWatcher();
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -74,7 +80,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(144, 233);
+            label4.Location = new Point(144, 274);
             label4.Name = "label4";
             label4.Size = new Size(48, 21);
             label4.TabIndex = 3;
@@ -83,7 +89,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(144, 301);
+            label5.Location = new Point(144, 342);
             label5.Name = "label5";
             label5.Size = new Size(82, 21);
             label5.TabIndex = 4;
@@ -92,16 +98,16 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(144, 365);
+            label6.Location = new Point(144, 406);
             label6.Name = "label6";
-            label6.Size = new Size(67, 21);
+            label6.Size = new Size(113, 21);
             label6.TabIndex = 5;
-            label6.Text = "Hospital";
+            label6.Text = "Hospital Name";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(144, 431);
+            label7.Location = new Point(536, 102);
             label7.Name = "label7";
             label7.Size = new Size(105, 21);
             label7.TabIndex = 6;
@@ -123,21 +129,21 @@
             // 
             // emailTB
             // 
-            emailTB.Location = new Point(274, 225);
+            emailTB.Location = new Point(274, 266);
             emailTB.Name = "emailTB";
             emailTB.Size = new Size(216, 29);
             emailTB.TabIndex = 9;
             // 
             // phoneNoTB
             // 
-            phoneNoTB.Location = new Point(274, 293);
+            phoneNoTB.Location = new Point(274, 334);
             phoneNoTB.Name = "phoneNoTB";
             phoneNoTB.Size = new Size(216, 29);
             phoneNoTB.TabIndex = 10;
             // 
             // hospitalNameTB
             // 
-            hospitalNameTB.Location = new Point(274, 365);
+            hospitalNameTB.Location = new Point(274, 406);
             hospitalNameTB.Name = "hospitalNameTB";
             hospitalNameTB.Size = new Size(216, 29);
             hospitalNameTB.TabIndex = 11;
@@ -154,16 +160,58 @@
             // 
             // specializationTB
             // 
-            specializationTB.Location = new Point(274, 423);
+            specializationTB.Location = new Point(666, 94);
             specializationTB.Name = "specializationTB";
             specializationTB.Size = new Size(216, 29);
             specializationTB.TabIndex = 14;
+            // 
+            // descriptionTB
+            // 
+            descriptionTB.Location = new Point(666, 162);
+            descriptionTB.Multiline = true;
+            descriptionTB.Name = "descriptionTB";
+            descriptionTB.Size = new Size(216, 160);
+            descriptionTB.TabIndex = 18;
+            // 
+            // genderTB
+            // 
+            genderTB.Location = new Point(274, 219);
+            genderTB.Name = "genderTB";
+            genderTB.Size = new Size(216, 29);
+            genderTB.TabIndex = 17;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(536, 165);
+            label8.Name = "label8";
+            label8.Size = new Size(89, 21);
+            label8.TabIndex = 16;
+            label8.Text = "Description";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(144, 219);
+            label9.Name = "label9";
+            label9.Size = new Size(61, 21);
+            label9.TabIndex = 15;
+            label9.Text = "Gender";
+            // 
+            // fileSystemWatcher1
+            // 
+            fileSystemWatcher1.EnableRaisingEvents = true;
+            fileSystemWatcher1.SynchronizingObject = this;
             // 
             // EnterDoctorDetails
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 561);
+            Controls.Add(descriptionTB);
+            Controls.Add(genderTB);
+            Controls.Add(label8);
+            Controls.Add(label9);
             Controls.Add(specializationTB);
             Controls.Add(saveDataBtn);
             Controls.Add(hospitalNameTB);
@@ -183,6 +231,7 @@
             Name = "EnterDoctorDetails";
             StartPosition = FormStartPosition.CenterScreen;
             Text = " ";
+            ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -203,5 +252,10 @@
         private TextBox hospitalNameTB;
         private Button saveDataBtn;
         private TextBox specializationTB;
+        private TextBox descriptionTB;
+        private TextBox genderTB;
+        private Label label8;
+        private Label label9;
+        private FileSystemWatcher fileSystemWatcher1;
     }
 }
