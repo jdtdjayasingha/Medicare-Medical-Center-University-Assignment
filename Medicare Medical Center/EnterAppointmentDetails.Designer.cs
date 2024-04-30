@@ -60,9 +60,10 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = Color.FromArgb(192, 192, 255);
+            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label9.Location = new Point(194, 302);
             label9.Name = "label9";
-            label9.Size = new Size(73, 20);
+            label9.Size = new Size(96, 28);
             label9.TabIndex = 33;
             label9.Text = "Patient ID";
             // 
@@ -99,7 +100,7 @@
             // dateTB
             // 
             dateTB.BackColor = Color.AliceBlue;
-            dateTB.Location = new Point(343, 165);
+            dateTB.Location = new Point(343, 180);
             dateTB.Margin = new Padding(3, 4, 3, 4);
             dateTB.Name = "dateTB";
             dateTB.Size = new Size(229, 27);
@@ -110,9 +111,10 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(192, 192, 255);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(194, 367);
             label4.Name = "label4";
-            label4.Size = new Size(74, 20);
+            label4.Size = new Size(97, 28);
             label4.TabIndex = 22;
             label4.Text = "Doctor ID";
             label4.Click += label4_Click;
@@ -121,9 +123,10 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(192, 192, 255);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(194, 242);
             label3.Name = "label3";
-            label3.Size = new Size(42, 20);
+            label3.Size = new Size(54, 28);
             label3.TabIndex = 21;
             label3.Text = "Time";
             label3.Click += label3_Click;
@@ -131,21 +134,27 @@
             // label2
             // 
             label2.BackColor = Color.FromArgb(192, 192, 255);
-            label2.Location = new Point(194, 165);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(194, 180);
             label2.Name = "label2";
             label2.Size = new Size(105, 27);
             label2.TabIndex = 20;
+            label2.Tag = "1";
             label2.Text = "Date";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(192, 192, 255);
-            label1.Location = new Point(412, 78);
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Navy;
+            label1.Location = new Point(393, 47);
             label1.Name = "label1";
-            label1.Size = new Size(97, 20);
+            label1.Size = new Size(179, 38);
             label1.TabIndex = 19;
             label1.Text = "Appointment";
+            label1.Click += label1_Click;
             // 
             // EnterAppointmentDetails
             // 

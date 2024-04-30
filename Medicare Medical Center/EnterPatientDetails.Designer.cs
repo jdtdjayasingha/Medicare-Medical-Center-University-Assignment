@@ -189,12 +189,13 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(0, 0, 64);
             label1.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Polite;
-            label1.Location = new Point(429, 35);
+            label1.Location = new Point(466, 23);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.Yes;
-            label1.Size = new Size(72, 28);
+            label1.Size = new Size(102, 38);
             label1.TabIndex = 19;
             label1.Text = "Patient";
             // 
@@ -221,7 +222,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "EnterPatientDetails";
             Text = "Patient";
             Load += EnterPatientDetails_Load;

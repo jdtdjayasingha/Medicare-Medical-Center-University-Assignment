@@ -53,11 +53,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(435, 30);
+            label1.Location = new Point(440, 22);
             label1.Name = "label1";
-            label1.Size = new Size(161, 31);
+            label1.Size = new Size(194, 38);
             label1.TabIndex = 1;
             label1.Text = "Patient Details";
             // 
