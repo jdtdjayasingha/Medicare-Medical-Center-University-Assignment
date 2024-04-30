@@ -51,5 +51,10 @@ namespace Medicare_Medical_Center
                 Clear();
             }
         }
+
+        private void firstNameTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

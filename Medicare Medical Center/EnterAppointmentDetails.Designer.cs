@@ -49,92 +49,110 @@
             // 
             // patient_IDTB
             // 
-            patient_IDTB.Location = new Point(300, 257);
+            patient_IDTB.BackColor = SystemColors.ButtonFace;
+            patient_IDTB.Location = new Point(343, 302);
+            patient_IDTB.Margin = new Padding(3, 4, 3, 4);
             patient_IDTB.Name = "patient_IDTB";
-            patient_IDTB.Size = new Size(216, 25);
+            patient_IDTB.Size = new Size(246, 27);
             patient_IDTB.TabIndex = 35;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(170, 257);
+            label9.BackColor = SystemColors.ActiveCaption;
+            label9.Location = new Point(194, 302);
             label9.Name = "label9";
-            label9.Size = new Size(63, 17);
+            label9.Size = new Size(73, 20);
             label9.TabIndex = 33;
             label9.Text = "Patient ID";
             // 
             // saveDataBtn
             // 
-            saveDataBtn.Location = new Point(300, 364);
+            saveDataBtn.BackColor = SystemColors.Control;
+            saveDataBtn.Location = new Point(343, 424);
+            saveDataBtn.Margin = new Padding(3, 4, 3, 4);
             saveDataBtn.Name = "saveDataBtn";
-            saveDataBtn.Size = new Size(114, 36);
+            saveDataBtn.Size = new Size(130, 42);
             saveDataBtn.TabIndex = 31;
             saveDataBtn.Text = "Save Data";
-            saveDataBtn.UseVisualStyleBackColor = true;
+            saveDataBtn.UseVisualStyleBackColor = false;
             saveDataBtn.Click += saveDataBtn_Click_1;
             // 
             // doctor_IDTB
             // 
-            doctor_IDTB.Location = new Point(300, 304);
+            doctor_IDTB.BackColor = SystemColors.ButtonFace;
+            doctor_IDTB.Location = new Point(343, 358);
+            doctor_IDTB.Margin = new Padding(3, 4, 3, 4);
             doctor_IDTB.Name = "doctor_IDTB";
-            doctor_IDTB.Size = new Size(216, 25);
+            doctor_IDTB.Size = new Size(246, 27);
             doctor_IDTB.TabIndex = 28;
             // 
             // timeTB
             // 
-            timeTB.Location = new Point(300, 203);
+            timeTB.BackColor = SystemColors.ButtonFace;
+            timeTB.Location = new Point(343, 239);
+            timeTB.Margin = new Padding(3, 4, 3, 4);
             timeTB.Name = "timeTB";
-            timeTB.Size = new Size(216, 25);
+            timeTB.Size = new Size(246, 27);
             timeTB.TabIndex = 27;
             // 
             // dateTB
             // 
-            dateTB.Location = new Point(300, 132);
+            dateTB.BackColor = SystemColors.ButtonFace;
+            dateTB.Location = new Point(343, 165);
+            dateTB.Margin = new Padding(3, 4, 3, 4);
             dateTB.Name = "dateTB";
-            dateTB.Size = new Size(216, 25);
+            dateTB.Size = new Size(246, 27);
             dateTB.TabIndex = 26;
+            dateTB.TextChanged += dateTB_TextChanged;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(170, 312);
+            label4.BackColor = SystemColors.ActiveCaption;
+            label4.Location = new Point(194, 367);
             label4.Name = "label4";
-            label4.Size = new Size(64, 17);
+            label4.Size = new Size(74, 20);
             label4.TabIndex = 22;
             label4.Text = "Doctor ID";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(170, 206);
+            label3.BackColor = SystemColors.ActiveCaption;
+            label3.Location = new Point(194, 242);
             label3.Name = "label3";
-            label3.Size = new Size(36, 17);
+            label3.Size = new Size(42, 20);
             label3.TabIndex = 21;
             label3.Text = "Time";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(170, 140);
+            label2.BackColor = SystemColors.ActiveCaption;
+            label2.Location = new Point(194, 165);
             label2.Name = "label2";
-            label2.Size = new Size(35, 17);
+            label2.Size = new Size(41, 20);
             label2.TabIndex = 20;
             label2.Text = "Date";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(476, 66);
+            label1.BackColor = SystemColors.AppWorkspace;
+            label1.Location = new Point(412, 78);
             label1.Name = "label1";
-            label1.Size = new Size(83, 17);
+            label1.Size = new Size(97, 20);
             label1.TabIndex = 19;
             label1.Text = "Appointment";
             // 
             // EnterAppointmentDetails
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1079, 623);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(859, 554);
             Controls.Add(patient_IDTB);
             Controls.Add(label9);
             Controls.Add(saveDataBtn);
@@ -145,6 +163,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "EnterAppointmentDetails";
             Text = "EnterAppointmentDetails";
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
