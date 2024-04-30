@@ -62,3 +62,4 @@ C:\Users\user\Documents\3rd year\ADBMS\Project\Medicare-Medical-Center-Universit
 C:\Users\user\Documents\3rd year\ADBMS\Project\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.pdb
 C:\Users\user\Documents\3rd year\ADBMS\Project\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare Medical Center.genruntimeconfig.cache
 C:\Users\user\Documents\3rd year\ADBMS\Project\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\ref\Medicare Medical Center.dll
+C:\Users\user\Documents\3rd year\ADBMS\Project\Medicare-Medical-Center-University-Assignment\Medicare Medical Center\obj\Debug\net8.0-windows\Medicare_Medical_Center.Properties.Resources.resources

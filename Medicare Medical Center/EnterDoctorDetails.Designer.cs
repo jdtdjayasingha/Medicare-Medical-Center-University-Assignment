@@ -62,7 +62,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(144, 102);
+            label2.Location = new Point(98, 102);
             label2.Name = "label2";
             label2.Size = new Size(105, 28);
             label2.TabIndex = 1;
@@ -71,7 +71,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(144, 168);
+            label3.Location = new Point(98, 165);
             label3.Name = "label3";
             label3.Size = new Size(133, 28);
             label3.TabIndex = 2;
@@ -80,7 +80,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(144, 274);
+            label4.Location = new Point(98, 272);
             label4.Name = "label4";
             label4.Size = new Size(59, 28);
             label4.TabIndex = 3;
@@ -89,7 +89,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(144, 342);
+            label5.Location = new Point(98, 337);
             label5.Name = "label5";
             label5.Size = new Size(102, 28);
             label5.TabIndex = 4;
@@ -98,7 +98,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(144, 406);
+            label6.Location = new Point(98, 394);
             label6.Name = "label6";
             label6.Size = new Size(142, 28);
             label6.TabIndex = 5;
@@ -115,7 +115,8 @@
             // 
             // firstNameTB
             // 
-            firstNameTB.Location = new Point(274, 94);
+            firstNameTB.BackColor = Color.AliceBlue;
+            firstNameTB.Location = new Point(274, 102);
             firstNameTB.Name = "firstNameTB";
             firstNameTB.Size = new Size(216, 34);
             firstNameTB.TabIndex = 7;
@@ -123,6 +124,7 @@
             // 
             // secondNameTB
             // 
+            secondNameTB.BackColor = Color.AliceBlue;
             secondNameTB.Location = new Point(274, 165);
             secondNameTB.Name = "secondNameTB";
             secondNameTB.Size = new Size(216, 34);
@@ -130,13 +132,15 @@
             // 
             // emailTB
             // 
-            emailTB.Location = new Point(274, 266);
+            emailTB.BackColor = Color.AliceBlue;
+            emailTB.Location = new Point(274, 272);
             emailTB.Name = "emailTB";
             emailTB.Size = new Size(216, 34);
             emailTB.TabIndex = 9;
             // 
             // phoneNoTB
             // 
+            phoneNoTB.BackColor = Color.AliceBlue;
             phoneNoTB.Location = new Point(274, 334);
             phoneNoTB.Name = "phoneNoTB";
             phoneNoTB.Size = new Size(216, 34);
@@ -144,14 +148,15 @@
             // 
             // hospitalNameTB
             // 
-            hospitalNameTB.Location = new Point(274, 406);
+            hospitalNameTB.BackColor = Color.AliceBlue;
+            hospitalNameTB.Location = new Point(274, 394);
             hospitalNameTB.Name = "hospitalNameTB";
             hospitalNameTB.Size = new Size(216, 34);
             hospitalNameTB.TabIndex = 11;
             // 
             // saveDataBtn
             // 
-            saveDataBtn.Location = new Point(274, 483);
+            saveDataBtn.Location = new Point(503, 487);
             saveDataBtn.Name = "saveDataBtn";
             saveDataBtn.Size = new Size(114, 36);
             saveDataBtn.TabIndex = 13;
@@ -161,14 +166,16 @@
             // 
             // specializationTB
             // 
-            specializationTB.Location = new Point(666, 94);
+            specializationTB.BackColor = Color.AliceBlue;
+            specializationTB.Location = new Point(700, 102);
             specializationTB.Name = "specializationTB";
             specializationTB.Size = new Size(216, 34);
             specializationTB.TabIndex = 14;
             // 
             // descriptionTB
             // 
-            descriptionTB.Location = new Point(666, 162);
+            descriptionTB.BackColor = Color.AliceBlue;
+            descriptionTB.Location = new Point(700, 165);
             descriptionTB.Multiline = true;
             descriptionTB.Name = "descriptionTB";
             descriptionTB.Size = new Size(216, 160);
@@ -176,6 +183,7 @@
             // 
             // genderTB
             // 
+            genderTB.BackColor = Color.AliceBlue;
             genderTB.Location = new Point(274, 219);
             genderTB.Name = "genderTB";
             genderTB.Size = new Size(216, 34);
@@ -193,7 +201,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(144, 219);
+            label9.Location = new Point(98, 219);
             label9.Name = "label9";
             label9.Size = new Size(76, 28);
             label9.TabIndex = 15;
@@ -208,6 +216,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(984, 561);
             Controls.Add(descriptionTB);
             Controls.Add(genderTB);

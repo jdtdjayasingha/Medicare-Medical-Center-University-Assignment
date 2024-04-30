@@ -49,6 +49,16 @@ namespace Medicare_Medical_Center
         {
             RefreshDataGridView();
         }
+
+        private void Enter_Patient_ID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

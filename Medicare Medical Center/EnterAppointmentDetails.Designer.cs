@@ -49,17 +49,17 @@
             // 
             // patient_IDTB
             // 
-            patient_IDTB.BackColor = SystemColors.ButtonFace;
+            patient_IDTB.BackColor = Color.AliceBlue;
             patient_IDTB.Location = new Point(343, 302);
             patient_IDTB.Margin = new Padding(3, 4, 3, 4);
             patient_IDTB.Name = "patient_IDTB";
-            patient_IDTB.Size = new Size(246, 27);
+            patient_IDTB.Size = new Size(229, 27);
             patient_IDTB.TabIndex = 35;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.BackColor = SystemColors.ActiveCaption;
+            label9.BackColor = Color.FromArgb(192, 192, 255);
             label9.Location = new Point(194, 302);
             label9.Name = "label9";
             label9.Size = new Size(73, 20);
@@ -69,7 +69,7 @@
             // saveDataBtn
             // 
             saveDataBtn.BackColor = SystemColors.Control;
-            saveDataBtn.Location = new Point(343, 424);
+            saveDataBtn.Location = new Point(379, 416);
             saveDataBtn.Margin = new Padding(3, 4, 3, 4);
             saveDataBtn.Name = "saveDataBtn";
             saveDataBtn.Size = new Size(130, 42);
@@ -80,36 +80,36 @@
             // 
             // doctor_IDTB
             // 
-            doctor_IDTB.BackColor = SystemColors.ButtonFace;
+            doctor_IDTB.BackColor = Color.AliceBlue;
             doctor_IDTB.Location = new Point(343, 358);
             doctor_IDTB.Margin = new Padding(3, 4, 3, 4);
             doctor_IDTB.Name = "doctor_IDTB";
-            doctor_IDTB.Size = new Size(246, 27);
+            doctor_IDTB.Size = new Size(229, 27);
             doctor_IDTB.TabIndex = 28;
             // 
             // timeTB
             // 
-            timeTB.BackColor = SystemColors.ButtonFace;
+            timeTB.BackColor = Color.AliceBlue;
             timeTB.Location = new Point(343, 239);
             timeTB.Margin = new Padding(3, 4, 3, 4);
             timeTB.Name = "timeTB";
-            timeTB.Size = new Size(246, 27);
+            timeTB.Size = new Size(229, 27);
             timeTB.TabIndex = 27;
             // 
             // dateTB
             // 
-            dateTB.BackColor = SystemColors.ButtonFace;
+            dateTB.BackColor = Color.AliceBlue;
             dateTB.Location = new Point(343, 165);
             dateTB.Margin = new Padding(3, 4, 3, 4);
             dateTB.Name = "dateTB";
-            dateTB.Size = new Size(246, 27);
+            dateTB.Size = new Size(229, 27);
             dateTB.TabIndex = 26;
             dateTB.TextChanged += dateTB_TextChanged;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = SystemColors.ActiveCaption;
+            label4.BackColor = Color.FromArgb(192, 192, 255);
             label4.Location = new Point(194, 367);
             label4.Name = "label4";
             label4.Size = new Size(74, 20);
@@ -120,27 +120,27 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = SystemColors.ActiveCaption;
+            label3.BackColor = Color.FromArgb(192, 192, 255);
             label3.Location = new Point(194, 242);
             label3.Name = "label3";
             label3.Size = new Size(42, 20);
             label3.TabIndex = 21;
             label3.Text = "Time";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.ActiveCaption;
+            label2.BackColor = Color.FromArgb(192, 192, 255);
             label2.Location = new Point(194, 165);
             label2.Name = "label2";
-            label2.Size = new Size(41, 20);
+            label2.Size = new Size(105, 27);
             label2.TabIndex = 20;
             label2.Text = "Date";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.AppWorkspace;
+            label1.BackColor = Color.FromArgb(192, 192, 255);
             label1.Location = new Point(412, 78);
             label1.Name = "label1";
             label1.Size = new Size(97, 20);
@@ -151,8 +151,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(859, 554);
+            BackColor = Color.FromArgb(192, 192, 255);
+            ClientSize = new Size(846, 554);
             Controls.Add(patient_IDTB);
             Controls.Add(label9);
             Controls.Add(saveDataBtn);
