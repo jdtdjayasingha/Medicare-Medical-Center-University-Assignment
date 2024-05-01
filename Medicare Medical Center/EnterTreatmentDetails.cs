@@ -54,7 +54,15 @@ namespace Medicare_Medical_Center
             }
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Treatment_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

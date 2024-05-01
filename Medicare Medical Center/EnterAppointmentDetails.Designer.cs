@@ -39,7 +39,13 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            textBox1 = new TextBox();
+            patientGW = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)patientGW).BeginInit();
             SuspendLayout();
             // 
             // fileSystemWatcher1
@@ -50,7 +56,7 @@
             // patient_IDTB
             // 
             patient_IDTB.BackColor = Color.AliceBlue;
-            patient_IDTB.Location = new Point(343, 302);
+            patient_IDTB.Location = new Point(151, 250);
             patient_IDTB.Margin = new Padding(3, 4, 3, 4);
             patient_IDTB.Name = "patient_IDTB";
             patient_IDTB.Size = new Size(229, 27);
@@ -61,7 +67,7 @@
             label9.AutoSize = true;
             label9.BackColor = Color.FromArgb(192, 192, 255);
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(194, 302);
+            label9.Location = new Point(27, 246);
             label9.Name = "label9";
             label9.Size = new Size(96, 28);
             label9.TabIndex = 33;
@@ -69,20 +75,20 @@
             // 
             // saveDataBtn
             // 
-            saveDataBtn.BackColor = SystemColors.Control;
-            saveDataBtn.Location = new Point(379, 416);
+            saveDataBtn.BackColor = Color.CornflowerBlue;
+            saveDataBtn.Location = new Point(151, 378);
             saveDataBtn.Margin = new Padding(3, 4, 3, 4);
             saveDataBtn.Name = "saveDataBtn";
-            saveDataBtn.Size = new Size(130, 42);
+            saveDataBtn.Size = new Size(110, 33);
             saveDataBtn.TabIndex = 31;
-            saveDataBtn.Text = "Save Data";
+            saveDataBtn.Text = "Insert";
             saveDataBtn.UseVisualStyleBackColor = false;
             saveDataBtn.Click += saveDataBtn_Click_1;
             // 
             // doctor_IDTB
             // 
             doctor_IDTB.BackColor = Color.AliceBlue;
-            doctor_IDTB.Location = new Point(343, 358);
+            doctor_IDTB.Location = new Point(151, 315);
             doctor_IDTB.Margin = new Padding(3, 4, 3, 4);
             doctor_IDTB.Name = "doctor_IDTB";
             doctor_IDTB.Size = new Size(229, 27);
@@ -91,7 +97,7 @@
             // timeTB
             // 
             timeTB.BackColor = Color.AliceBlue;
-            timeTB.Location = new Point(343, 239);
+            timeTB.Location = new Point(151, 184);
             timeTB.Margin = new Padding(3, 4, 3, 4);
             timeTB.Name = "timeTB";
             timeTB.Size = new Size(229, 27);
@@ -100,7 +106,7 @@
             // dateTB
             // 
             dateTB.BackColor = Color.AliceBlue;
-            dateTB.Location = new Point(343, 180);
+            dateTB.Location = new Point(151, 114);
             dateTB.Margin = new Padding(3, 4, 3, 4);
             dateTB.Name = "dateTB";
             dateTB.Size = new Size(229, 27);
@@ -112,7 +118,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(192, 192, 255);
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(194, 367);
+            label4.Location = new Point(27, 315);
             label4.Name = "label4";
             label4.Size = new Size(97, 28);
             label4.TabIndex = 22;
@@ -124,7 +130,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(192, 192, 255);
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(194, 242);
+            label3.Location = new Point(27, 180);
             label3.Name = "label3";
             label3.Size = new Size(54, 28);
             label3.TabIndex = 21;
@@ -135,7 +141,7 @@
             // 
             label2.BackColor = Color.FromArgb(192, 192, 255);
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(194, 180);
+            label2.Location = new Point(27, 110);
             label2.Name = "label2";
             label2.Size = new Size(105, 27);
             label2.TabIndex = 20;
@@ -149,19 +155,70 @@
             label1.BackColor = Color.FromArgb(192, 192, 255);
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(393, 47);
+            label1.Location = new Point(379, 26);
             label1.Name = "label1";
             label1.Size = new Size(179, 38);
             label1.TabIndex = 19;
             label1.Text = "Appointment";
             label1.Click += label1_Click;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(0, 192, 0);
+            button1.Location = new Point(267, 381);
+            button1.Name = "button1";
+            button1.Size = new Size(106, 31);
+            button1.TabIndex = 36;
+            button1.Text = "Update";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Tomato;
+            button2.Location = new Point(379, 378);
+            button2.Name = "button2";
+            button2.Size = new Size(96, 34);
+            button2.TabIndex = 37;
+            button2.Text = "Delect";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.LimeGreen;
+            button3.Location = new Point(535, 108);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 38;
+            button3.Text = "Search";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(650, 110);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(263, 27);
+            textBox1.TabIndex = 39;
+            // 
+            // patientGW
+            // 
+            patientGW.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            patientGW.Location = new Point(500, 160);
+            patientGW.Name = "patientGW";
+            patientGW.RowHeadersWidth = 51;
+            patientGW.Size = new Size(541, 252);
+            patientGW.TabIndex = 40;
+            // 
             // EnterAppointmentDetails
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
-            ClientSize = new Size(846, 554);
+            ClientSize = new Size(1053, 428);
+            Controls.Add(patientGW);
+            Controls.Add(textBox1);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(patient_IDTB);
             Controls.Add(label9);
             Controls.Add(saveDataBtn);
@@ -176,6 +233,7 @@
             Name = "EnterAppointmentDetails";
             Text = "EnterAppointmentDetails";
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)patientGW).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -193,5 +251,10 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button2;
+        private Button button1;
+        private Button button3;
+        private TextBox textBox1;
+        private DataGridView patientGW;
     }
 }
