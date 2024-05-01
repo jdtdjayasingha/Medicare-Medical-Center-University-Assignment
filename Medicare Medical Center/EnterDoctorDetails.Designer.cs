@@ -182,6 +182,7 @@
             descriptionTB.Name = "descriptionTB";
             descriptionTB.Size = new Size(216, 160);
             descriptionTB.TabIndex = 18;
+            descriptionTB.TextChanged += descriptionTB_TextChanged;
             // 
             // genderTB
             // 
