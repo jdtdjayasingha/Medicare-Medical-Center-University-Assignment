@@ -32,34 +32,44 @@ namespace Medicare_Medical_Center
             addressTB.Clear();
         }
 
-            private void saveDataBtn_Click(object sender, EventArgs e)
+        private void saveDataBtn_Click(object sender, EventArgs e)
+        {
+            try
             {
-                try
-                {
-                    con.Open();
-                    string query = "INSERT INTO Patient (First_Name, Second_Name, Gender, Age, Status, Phone_No,  Address) VALUES (@First_Name, @Second_Name, @Gender, @Age, @Status, @Phone_No, @Address)";
-                    cm = new SqlCommand(query, con);
-                    cm.Parameters.AddWithValue("@First_Name", firstNameTB.Text);
-                    cm.Parameters.AddWithValue("@Second_Name", secondNameTB.Text);
-                    cm.Parameters.AddWithValue("@Gender", genderTB.Text);
-                    cm.Parameters.AddWithValue("@Age", ageTB.Text);
-                    cm.Parameters.AddWithValue("@Phone_No", phoneNoTB.Text);
-                    cm.Parameters.AddWithValue("@Status", statusTB.Text);
-                    cm.Parameters.AddWithValue("@Address", addressTB.Text);
-                    cm.ExecuteNonQuery();
-                    MessageBox.Show("Data saved successfully.");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message);
-                }
-                finally
-                {
-                    con.Close();
-                    Clear();
-                }
+                con.Open();
+                string query = "INSERT INTO Patient (First_Name, Second_Name, Gender, Age, Status, Phone_No,  Address) VALUES (@First_Name, @Second_Name, @Gender, @Age, @Status, @Phone_No, @Address)";
+                cm = new SqlCommand(query, con);
+                cm.Parameters.AddWithValue("@First_Name", firstNameTB.Text);
+                cm.Parameters.AddWithValue("@Second_Name", secondNameTB.Text);
+                cm.Parameters.AddWithValue("@Gender", genderTB.Text);
+                cm.Parameters.AddWithValue("@Age", ageTB.Text);
+                cm.Parameters.AddWithValue("@Phone_No", phoneNoTB.Text);
+                cm.Parameters.AddWithValue("@Status", statusTB.Text);
+                cm.Parameters.AddWithValue("@Address", addressTB.Text);
+                cm.ExecuteNonQuery();
+                MessageBox.Show("Data saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                Clear();
             }
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EnterPatientDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+}
 
 

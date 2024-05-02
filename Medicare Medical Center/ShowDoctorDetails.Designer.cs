@@ -44,12 +44,13 @@
             doctorGW.Name = "doctorGW";
             doctorGW.ReadOnly = true;
             doctorGW.RowHeadersVisible = false;
+            doctorGW.RowHeadersWidth = 51;
             doctorGW.Size = new Size(962, 540);
             doctorGW.TabIndex = 0;
             // 
             // ShowDoctorDetails
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 561);
             Controls.Add(doctorGW);
