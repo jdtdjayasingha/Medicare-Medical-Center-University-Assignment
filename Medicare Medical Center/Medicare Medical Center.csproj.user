@@ -16,6 +16,21 @@
     <Compile Update="DrugsDetails.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="LabTestDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PhPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SuplyOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SupplyerDetail.cs">
       <SubType>Form</SubType>
     </Compile>
